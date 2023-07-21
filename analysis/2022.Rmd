@@ -27,6 +27,11 @@ This week, I am running some exploratory analyses on the OneK1K data. I didn't h
 
 ![]("/project2/xuanyao/manuela/OneK1K_data/plots/GSM5899947_pool_77_count_depth.png")
 
+![]("/project2/xuanyao/manuela/OneK1K_data/plots/GSM5899947_pool_77_count_depth_zoom.png")
+
+![]("/project2/xuanyao/manuela/OneK1K_data/plots/GSM5899947_pool_77_gene_count.png")
+
+
 
 
 
