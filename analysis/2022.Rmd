@@ -23,4 +23,11 @@ blockquote {
 
 # Week of July 17
 
-I am trying to make this work 
+This week, I am running some exploratory analyses on the OneK1K data. 
+
+
+
+
+
+
+
