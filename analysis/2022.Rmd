@@ -25,11 +25,11 @@ blockquote {
 
 This week, I am running some exploratory analyses on the OneK1K data. I didn't have time to make plots from all files so we are just using /project2/xuanyao/manuela/OneK1K_data/GSM5899947_OneK1K_Pool77_RawCounts.csv.gz for the following plots.
 
-![]("/project2/xuanyao/manuela/OneK1K_data/plots/GSM5899947_pool_77_count_depth.png")
+![]("plots/GSM5899947_pool_77_count_depth.png")
 
-![]("/project2/xuanyao/manuela/OneK1K_data/plots/GSM5899947_pool_77_count_depth_zoom.png")
+![]("plots/GSM5899947_pool_77_count_depth_zoom.png")
 
-![]("/project2/xuanyao/manuela/OneK1K_data/plots/GSM5899947_pool_77_gene_count.png")
+![]("plots/GSM5899947_pool_77_gene_count.png")
 
 
 
