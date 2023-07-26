@@ -31,6 +31,10 @@ This week, I am running some exploratory analyses on the OneK1K data. I didn't h
 
 ![]("assets/GSM5899947_pool_77_gene_count.png")
 
+# Week of July 25
+
+Redid the plots from last week but with all of the data:
+
 
 
 
