@@ -21,7 +21,7 @@ blockquote {
 }
 ```
 
-# Week of July 17
+## Week of July 17
 
 This week, I am running some exploratory analyses on the OneK1K data. I didn't have time to make plots from all files so we are just using /project2/xuanyao/manuela/OneK1K_data/GSM5899947_OneK1K_Pool77_RawCounts.csv.gz for the following plots.
 
@@ -31,7 +31,7 @@ This week, I am running some exploratory analyses on the OneK1K data. I didn't h
 
 ![]("assets/GSM5899947_pool_77_gene_count.png")
 
-# Week of July 25
+## Week of July 25
 
 Redid the plots from last week but with all of the data:
 
