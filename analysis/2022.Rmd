@@ -39,10 +39,16 @@ Redid the plots from last week but with all of the data:
 
 ![](assets/all_count_depth.png){width=40%}
 
+Learned to include images into workflowr. The image needs to be in docs/assets, then run the wflow_git_commit command on the image, publish the rmd file and push the repo.
 
+Starting some processing of the data with Seurat. I'm following this tutorial: https://satijalab.org/seurat/articles/pbmc3k_tutorial.html. 
 
+The first plot shows that there are no mitochondrial genes in the dataset. It looks like they might have been filtered out. We can also see that there are some outliers. Maybe check with Xuanyao but for now I'll filter cells with more than 2000 genes. Leaning towards using 1500 as a threshold. I'm also going to filter cells with over 10000 reads for now. 
 
+![](assets/seurat_learning_1.png){width=40%}
 
+The second plot generated in the tutorial. Tbh I'm not sure what the take home message is here.
 
+![](assets/seurat_learning_2.png){width=40%}
 
 
