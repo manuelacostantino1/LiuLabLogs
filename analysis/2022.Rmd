@@ -56,7 +56,7 @@ I normalized the data using default parameters
 pbmc <- NormalizeData(pbmc, normalization.method = "LogNormalize", scale.factor = 10000)
 ```
 
-I then selected the 10,000 most variable genes. The tutorial used 2000 but paper said 5k to 10k and I'm starting out with the most lenient thresholds possible. I also don't understand this plot. (Fix it idk why its not showing up)
+I then selected the 10,000 most variable genes. The tutorial used 2000 but paper said 5k to 10k and I'm starting out with the most lenient thresholds possible. I also don't understand this plot. 
 
 ![](assets/seurat_learning_3.png){width=60%}
 
@@ -70,6 +70,20 @@ PCA results:
 
 To do: Figure out why the names are numbers and not the actual names we had earlier.
 
+## Week of July 31
+
+Continuing the PCA plots:
+
+![](assets/seurat_learning_6.png){width=60%}
+
+![](assets/seurat_learning_7.png){width=60%}
+![](assets/seurat_learning_8.png){width=60%}
 
 
+Then, we make the jack straw plot. You can kind of read these like a qqplot: significant PCs are the ones that look inflated. This should tell you how many PCs you need to have a meaningful compression of the dataset. From this plot, it looks like all 20 (max number I can plot) are relevant.
 
+![](assets/seurat_learning_9.png){width=60%}
+
+The same conclusion can be drawn from the elbow plot. It does however seem like the values are starting to converge.
+
+![](assets/seurat_learning_10.png){width=60%}
