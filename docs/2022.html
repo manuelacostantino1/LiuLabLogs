@@ -398,7 +398,7 @@ div.tocify {
 <div class="tab-content">
 <div id="summary" class="tab-pane fade in active">
 <p>
-<strong>Last updated:</strong> 2023-07-31
+<strong>Last updated:</strong> 2023-08-01
 </p>
 <p>
 <strong>Checks:</strong> <span class="glyphicon glyphicon-ok text-success" aria-hidden="true"></span> 7 <span class="glyphicon glyphicon-exclamation-sign text-danger" aria-hidden="true"></span> 0
@@ -489,16 +489,16 @@ This reproducible <a href="http://rmarkdown.rstudio.com">R Markdown</a> analysis
 <div class="panel panel-default">
 <div class="panel-heading">
 <p class="panel-title">
-<a data-toggle="collapse" data-parent="#workflowr-checks" href="#strongRepositoryversionstrongahrefhttpsgithubcommanuelacostantino1LiuLabLogstreef0ebd5254f88aa64ad23a6737dd24d7654fd1150targetblankf0ebd52a"> <span class="glyphicon glyphicon-ok text-success" aria-hidden="true"></span> <strong>Repository version:</strong> <a href="https://github.com/manuelacostantino1/LiuLabLogs/tree/f0ebd5254f88aa64ad23a6737dd24d7654fd1150" target="_blank">f0ebd52</a> </a>
+<a data-toggle="collapse" data-parent="#workflowr-checks" href="#strongRepositoryversionstrongahrefhttpsgithubcommanuelacostantino1LiuLabLogstreedb2c2d036d44eff747d6e9dc49c9298d3ba1d70atargetblankdb2c2d0a"> <span class="glyphicon glyphicon-ok text-success" aria-hidden="true"></span> <strong>Repository version:</strong> <a href="https://github.com/manuelacostantino1/LiuLabLogs/tree/db2c2d036d44eff747d6e9dc49c9298d3ba1d70a" target="_blank">db2c2d0</a> </a>
 </p>
 </div>
-<div id="strongRepositoryversionstrongahrefhttpsgithubcommanuelacostantino1LiuLabLogstreef0ebd5254f88aa64ad23a6737dd24d7654fd1150targetblankf0ebd52a" class="panel-collapse collapse">
+<div id="strongRepositoryversionstrongahrefhttpsgithubcommanuelacostantino1LiuLabLogstreedb2c2d036d44eff747d6e9dc49c9298d3ba1d70atargetblankdb2c2d0a" class="panel-collapse collapse">
 <div class="panel-body">
 <p>
 Great! You are using Git for version control. Tracking code development and connecting the code version to the results is critical for reproducibility.
 </p>
 <p>
-The results in this page were generated with repository version <a href="https://github.com/manuelacostantino1/LiuLabLogs/tree/f0ebd5254f88aa64ad23a6737dd24d7654fd1150" target="_blank">f0ebd52</a>. See the <em>Past versions</em> tab to see a history of the changes made to the R Markdown and HTML files.
+The results in this page were generated with repository version <a href="https://github.com/manuelacostantino1/LiuLabLogs/tree/db2c2d036d44eff747d6e9dc49c9298d3ba1d70a" target="_blank">db2c2d0</a>. See the <em>Past versions</em> tab to see a history of the changes made to the R Markdown and HTML files.
 </p>
 <p>
 Note that you need to be careful to ensure that all relevant files for the analysis have been committed to Git prior to generating the results (you can use <code>wflow_publish</code> or <code>wflow_git_commit</code>). workflowr only checks the R Markdown file, but you know if there are other scripts or data files that it depends on. Below is the status of the Git repository when the results were generated:
@@ -555,6 +555,40 @@ Message
 </tr>
 </thead>
 <tbody>
+<tr>
+<td>
+Rmd
+</td>
+<td>
+<a href="https://github.com/manuelacostantino1/LiuLabLogs/blob/db2c2d036d44eff747d6e9dc49c9298d3ba1d70a/analysis/2022.Rmd" target="_blank">db2c2d0</a>
+</td>
+<td>
+manuelacostantino1
+</td>
+<td>
+2023-08-01
+</td>
+<td>
+wflow_publish(“analysis/2022.Rmd”)
+</td>
+</tr>
+<tr>
+<td>
+html
+</td>
+<td>
+<a href="https://rawcdn.githack.com/manuelacostantino1/LiuLabLogs/cab71310e39813aaabd85de64ef4a0a52210e9f1/docs/2022.html" target="_blank">cab7131</a>
+</td>
+<td>
+manuelacostantino1
+</td>
+<td>
+2023-07-31
+</td>
+<td>
+Build site.
+</td>
+</tr>
 <tr>
 <td>
 html
@@ -1655,6 +1689,8 @@ blockquote {
 <p><img src="assets/all_count_depth.png" style="width:40.0%" /></p>
 <p>Learned to include images into workflowr. The image needs to be in docs/assets, then run the wflow_git_commit command on the image, publish the rmd file and push the repo.</p>
 <p>Starting some processing of the data with Seurat. I’m following this tutorial: <a href="https://satijalab.org/seurat/articles/pbmc3k_tutorial.html" class="uri">https://satijalab.org/seurat/articles/pbmc3k_tutorial.html</a>.</p>
+<p>The script is in /project2/xuanyao/manuela/OneK1K_data/scripts/seurat_processing.R</p>
+<p>Note that all these results are only for pool 77 so that things were faster.</p>
 <p>The first plot shows that there are no mitochondrial genes in the dataset. It looks like they might have been filtered out. We can also see that there are some outliers. Maybe check with Xuanyao but for now I’ll filter cells with more than 2000 genes. Leaning towards using 1500 as a threshold. I’m also going to filter cells with over 10000 reads for now.</p>
 <p><img src="assets/seurat_learning_1.png" style="width:60.0%" /></p>
 <p>The second plot generated in the tutorial. Tbh I’m not sure what the take home message is here.</p>
@@ -1677,6 +1713,10 @@ blockquote {
 <p><img src="assets/seurat_learning_9.png" style="width:60.0%" /></p>
 <p>The same conclusion can be drawn from the elbow plot. It does however seem like the values are starting to converge.</p>
 <p><img src="assets/seurat_learning_10.png" style="width:60.0%" /></p>
+<p>To do: idk why these PC files aren’t uploading :’)</p>
+<p>Did the clustering. I’m using 30 PCs since the 20 on the plot didn’t really seem to converge too much and I’d rather include too many than not enough. Here are the UMAP results:</p>
+<p><img src="assets/seurat_learning_11.png" style="width:60.0%" /></p>
+<p>I wanted to assign cluster names to each of them but I needed to know the canonical markers for each of my 9 clusters and currently don’t have that information. Again, not sure if it’s worth it now that we know I’m going to have access to the other data.</p>
 <br>
 <p>
 <button type="button" class="btn btn-default btn-workflowr btn-workflowr-sessioninfo" data-toggle="collapse" data-target="#workflowr-sessioninfo" style="display: block;">
