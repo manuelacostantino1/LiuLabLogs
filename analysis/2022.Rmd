@@ -43,6 +43,10 @@ Learned to include images into workflowr. The image needs to be in docs/assets, 
 
 Starting some processing of the data with Seurat. I'm following this tutorial: https://satijalab.org/seurat/articles/pbmc3k_tutorial.html. 
 
+The script is in /project2/xuanyao/manuela/OneK1K_data/scripts/seurat_processing.R
+
+Note that all these results are only for pool 77 so that things were faster.
+
 The first plot shows that there are no mitochondrial genes in the dataset. It looks like they might have been filtered out. We can also see that there are some outliers. Maybe check with Xuanyao but for now I'll filter cells with more than 2000 genes. Leaning towards using 1500 as a threshold. I'm also going to filter cells with over 10000 reads for now. 
 
 ![](assets/seurat_learning_1.png){width=60%}
@@ -87,3 +91,12 @@ Then, we make the jack straw plot. You can kind of read these like a qqplot: sig
 The same conclusion can be drawn from the elbow plot. It does however seem like the values are starting to converge.
 
 ![](assets/seurat_learning_10.png){width=60%}
+
+
+To do: idk why these PC files aren't uploading :')
+
+Did the clustering. I'm using 30 PCs since the 20 on the plot didn't really seem to converge too much and I'd rather include too many than not enough. Here are the UMAP results:
+
+![](assets/seurat_learning_11.png){width=60%}
+
+I wanted to assign cluster names to each of them but I needed to know the canonical markers for each of my 9 clusters and currently don't have that information. Again, not sure if it's worth it now that we know I'm going to have access to the other data.
