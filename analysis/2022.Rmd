@@ -72,8 +72,6 @@ PCA results:
 
 ![](assets/seurat_learning_5.png){width=60%}
 
-To do: Figure out why the names are numbers and not the actual names we had earlier.
-
 ## Week of July 31
 
 Continuing the PCA plots:
@@ -91,7 +89,6 @@ Then, we make the jack straw plot. You can kind of read these like a qqplot: sig
 The same conclusion can be drawn from the elbow plot. It does however seem like the values are starting to converge.
 
 ![](assets/seurat_learning_10.png){width=60%}
-
 
 To do: idk why these PC files aren't uploading :')
 
